@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('C:\\Users\\Shreedhar V Kalahal\\OneDrive\\Desktop\\notes\\shap web development\\th.jpeg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        
+        .center-table {
+            margin: 0 auto; 
+        }
+
+        
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body style="text-align: center;">
+    <div class="container">
+        <h3 style="text-align:center;"> registraion form</h3>
+    <table class="center-table";>
+    <tr>
+        <th>
+    <label for="name">first name</label>
+        </th>
+        <th>
+    <input type="text" id="fname" name="fanme">
+    </th>
+    </tr>
+    <tr>
+    <th>
+    <label for="name">last name</label>
+    </th>
+    <th>
+        <br>
+    <input type="text" id="lname" name="lanme"><br><br>
+    </th>
+    </tr>
+<tr>
+    <th><label for="name">phone</label></th>
+<th><input type="text" id="phone" name="phone"><br></th>
+</tr>
+<tr>
+    <th><br><input type="submit" value="submit" onclick="printDetails()"></th>
+    <th><br><input type="reset" value="reset"></th>
+</tr>
+
+    </table>
+    <script src="node.js"></script>
+
+    </div>
+    
+</body>
+</html>
